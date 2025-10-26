@@ -1,0 +1,92 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+.bg{
+    background-image: url('ig1.jpeg');
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.topnav{
+    background-color: darkred;
+    overflow:hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.topnav-button{
+    background-color: darkred;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a{
+    float:left;
+    color:burlywood;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color:blanchedalmond;
+    color:darkred;
+}
+
+.login-box{
+    text-align: center;
+    background:rgba(255,255,255,0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 400px;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-box h2{
+    margin-bottom:20px;
+    color:brown;
+}
+
+.login-box input{
+    width:100%;
+    margin-bottom:15px;
+    padding:15px;
+    border:1px solid burlywood;
+    border-radius: 10px;
+    text-align:center;
+}
+
+button{
+    background-color: brown;
+    color: aliceblue;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+.login-box form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
